@@ -47,15 +47,33 @@ function slideAndMerge(line: TileValue[]): { line: TileValue[]; gained: number }
       gained: 0,
     };
   }
-//figure out direcrion
 
-//move left
-//start with leftmost tile in (1,1) we wont use 2d array but for visualization rn 
-//if value is 0, ie it is empty check the next one over if its empty check the next
-//since our size will be variable we may want a while loop or something here
-//if its not move the value from that tile to the leftmost tile, this is essentially the same as moving the tile
-//if the value of a tile is the same as the spot to its left make the one on the left double
-//and the other one to zero
-//go until you've hit rightmost tile
-//do this for each row
+  function getRow(board: TileValue[], size: number, r: number): TileValue[] {
+//return n elements starting at r* size
+
+  }
+
+  function getColumn(board: TileValue[], size: number, r: number): TileValue[]{
+//return n elements each one having an offset of n from one another starting at r
+  }
+
+function setRow(){}
+
+function setColumn(){}
+
+function ApplyMove(){
+    //decide wether rows or columns based on direction
+    //for each row, extract line, reverse if needed, merge line and write it back
+    //keep track of score ansd wether anything changed per line
+    //return the moveresult
+
+    //also to track moved we just wanna compare the initial grid with the grid after the loop
+    //upon the first differing entry we can set moved to true, we could also maybe keep track of this
+    //in the helper functions
+    return {
+        board,
+        gained: 0,
+        moved: false,
+      };
+    }
 
