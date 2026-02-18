@@ -6,7 +6,8 @@ my key here was making sure this is non deterministic, when an undo occurs
 I should be able to make the same move again and have the random tile possibly spawn
 elsewhere.
 */
-import { SpawnResult, TileValue } from "./types";
+import type { SpawnResult, TileValue } from "./types";
+
 
 export function spawnTile(board: TileValue[], rng: () => number = Math.random): SpawnResult {
     // find empty indices

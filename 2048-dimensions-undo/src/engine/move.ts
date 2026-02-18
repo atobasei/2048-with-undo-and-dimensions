@@ -1,6 +1,6 @@
 //src/engine/move.ts
 
-import { Direction, TileValue } from "./types"; 
+import type { Direction, TileValue } from "./types"; 
 
 export interface MoveResult{
     //should have the grid, points to add, and wether anything changed

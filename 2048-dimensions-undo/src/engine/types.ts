@@ -1,4 +1,4 @@
-// src/enginge/types.ts
+// src/engine/types.ts
 //file defines 
 
 //defining direction for use of both awsd and arrows

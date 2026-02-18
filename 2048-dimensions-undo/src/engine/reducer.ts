@@ -1,4 +1,4 @@
-import { Direction, GameState, TileValue } from "./types";
+import type { Direction, GameState, TileValue } from "./types";
 import { applyMove } from "./move";
 import { spawnTile } from "./spawn";
 
