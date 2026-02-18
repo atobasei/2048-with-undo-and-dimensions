@@ -68,7 +68,7 @@ export default function App() {
       </div>
 
       <div style={{ marginTop: 8, opacity: 0.75 }}>
-        Use Arrow Keys / WASD to move. Z or Backspace to undo.
+        Use Arrow Keys / WASD to move. Z or Backspace to undo, Have fun!!
       </div>
 
       <Board board={state.board} size={state.size} />
